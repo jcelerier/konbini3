@@ -1,5 +1,11 @@
-#!/bin/sh
-(while true; do; sleep 300; habak -hi -mS /usr/share/backgrounds/gnome/; done)&
+#!/bin/bash
+(
+	while [[ true ]]
+	do
+		habak -hi -mS /usr/share/backgrounds/gnome/
+		sleep 300
+	done
+) &
 nm-applet&
 pasystray&
 udiskie -t&
