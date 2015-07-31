@@ -45,6 +45,8 @@ bindsym XF86MonBrightnessUp exec xbacklight -steps 1 -time 0 -inc 5
 bindsym $mod+d exec dmenu_run
 bindsym $mod+w exec uzbl-browser www.google.com
 bindsym $mod+l exec i3lock -f
+bindsym $mod+n exec zim
+bindsym $mod+n exec urxvt -e bc -l
 
 # There also is the (new) i3-dmenu-desktop which only displays applications
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
