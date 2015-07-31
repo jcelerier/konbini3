@@ -1,0 +1,7 @@
+#!/bin/sh
+(while true; do; sleep 300; habak -hi -mS /usr/share/backgrounds/gnome/; done)&
+nm-applet&
+pasystray&
+udiskie -t&
+rofi -key-window mod1+Tab &
+exec i3

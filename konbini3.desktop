@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=konbini3
+Comment=i3-based DE
+Exec=konbini3
+TryExec=konbini3
+Type=Application
+X-LightDM-DesktopName=konbini3
+DesktopNames=konbini3
